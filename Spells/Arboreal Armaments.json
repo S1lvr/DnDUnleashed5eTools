@@ -1,0 +1,121 @@
+{
+	"siteVersion": "1.137.1",
+	"_meta": {
+		"sources": [
+			{
+				"json": "ArborealArmamentSpells",
+				"abbreviation": "AAS",
+				"full": "Arboreal Armament Spells",
+				"url": "",
+				"authors": [
+					"DnD Unleashed"
+				],
+				"convertedBy": [
+					"jussin"
+				]
+			}
+		],
+		"dateAdded": 1633148985,
+		"dateLastModified": 1633148985
+	},
+	"spell": [
+		{
+			"name": "Leaf Shield",
+			"source": "ArborealArmamentSpells",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a leaf, petal, or toadsteel"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You touch one leaf, petal, or toadstool. The object grows and is transformed into a magical shield made out of plant material that lasts for the duration.",
+				"The magical shield is lightweight and flexible, and it has straps made of stem, root, or vine, so a creature can wield this shield without requiring the use of any hands. When wielded in this way, the shield only increases the wielder's Armor Class by 1."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"If you cast this spell using a spall slot of 3rd level or higher, the duration is 1 hour. If you use a spell slot of 5th level or higher, it is 8 hours."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
+			"name": "Blades of Grass",
+			"source": "ArborealArmamentSpells",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "pieces of grass or conifer leaves"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Up to 15 pieces of grass or conifer leaves that you touch transform into magical weaponry. You transform each object into your choice of an arrow, blowgun needle, or crossbow bolt. If you target no more than two objects, your choices for transformation also include a dagger, shortsword, scimitar, rapier, longsword, or greatsword.",
+				"These weapons and ammunition are magical. They are constructed out of planet material and weigh half as much as usual, and they are extra sharp, granting them a +1 bonus to damage rolls.",
+				"Ammunition created by this spell is destroyed when it hits a target. When the spell ends, all the weaponry turns to dust."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				]
+			}
+		}
+	]
+}
