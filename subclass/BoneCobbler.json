@@ -1,0 +1,312 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ArtificerBoneCobbler",
+				"abbreviation": "BCOB",
+				"full": "Bone Cobbler",
+				"authors": [
+					"DnD Unleashed"
+				],
+				"version": "1.0",
+				"url": "https://imgur.com/EgUficW",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1544903578,
+		"dateLastModified": 1544903578
+	},
+	"subclass": [
+		{
+			"name": "Bone Cobbler",
+			"source": "ArtificerBoneCobbler",
+			"subclassFeatures": [
+				"Tool Proficiency|Artificer||BoneCobbler|ArtificerBoneCobbler|3",
+				"Bone Cobbler Spells|Artificer||BoneCobbler|ArtificerBoneCobbler|3",
+				"Reanimated Prosthetic|Artificer||BoneCobbler||ArtificerBoneCobbler|3",
+				"Undead Minion|Artificer||BoneCobbler|ArtificerBoneCobbler|3",
+				"Extra Attack|Artificer||BoneCobbler|ArtificerBoneCobbler|5",
+				"Fortified Bones|Artificer||BoneCobbler|ArtificerBoneCobbler|9",
+				"Ghoulish Strike|Artificer||BoneCobbler|ArtificerBoneCobbler|15"
+			],
+			"shortName": "ArtificerBoneCobbler",
+			"spells": [
+				{
+					"prepared": {
+						"3": [
+							"inflict wounds",
+							"spasm"
+						],
+						"5": [
+							"blindness/deafness",
+							"gentle repose"
+						],
+						"9": [
+							"animate dead",
+							"feign death"
+						],
+						"13": [
+							"blight",
+							"hemorrhage"
+						],
+						"17": [
+							"contagion",
+							"grave soil"
+						]
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"inflict wounds",
+							"spasm"
+						],
+						"5": [
+							"blindness/deafness",
+							"gentle repose"
+						],
+						"9": [
+							"animate dead",
+							"feign death"
+						],
+						"13": [
+							"blight",
+							"hemorrhage"
+						],
+						"17": [
+							"contagion",
+							"grave soil"
+						]
+					}
+				}
+			],
+			"className": "Artificer",
+			"classSource": "TCE"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Bone Cobbler",
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "BoneCobbler",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 3,
+			"entries": [
+				"Bone cobbler is one of the more generous names given to artificers who dedicate their talent for creation to the task of necromancy. These artificers seek to understand the physical mechanmisms by which life persists, hoping to unravel the very mysteries of life and death. They sew, hack, and bolt flesh together to create enhanced undead minions, and many even choose to alter their own bodies using magical prostheses crafted with necromancy.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Tool Proficiency|Artificer||BoneCobbler|ArtificerBoneCobbler|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bone Cobbler Spells|Artificer||BoneCobbler|ArtificerBoneCobbler|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Reanimated Prosthetic|Artificer||BoneCobbler||ArtificerBoneCobbler|3""
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Undead Minion|Artificer||BoneCobbler|ArtificerBoneCobbler|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Extra Attack|Artificer||BoneCobbler|ArtificerBoneCobbler|5"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fortified Bones|Artificer||BoneCobbler|ArtificerBoneCobbler|9"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ghoulish Strike|Artificer||BoneCobbler|ArtificerBoneCobbler|15"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Tool Proficiency",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Tool Proficiency",
+							"entries": [
+								"When you adopt this specalization at 3rd level, you gain proficiency with cobbler's tools. If you already have this proficiency, you gain proficiency with one other type of artisan's tools of your choice."
+							]
+						}
+					]
+				}
+		],
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Bone Cobbler Spells",
+			"entries": [
+				"Starting at 3rd level, you always have certain spells prepared after you rech particular levels in this class, as shown in the Bone Cobbler Spells table. These spells count as artificer spells for you, but they don't count against the number of artificer spells you prepare.",
+				{
+					"type": "table",
+					"caption": "Bone Cobbler Spells",
+					"colLabels": [
+						"Artificer Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"3rd",
+							"{@spell inflict wounds}, {@spell spasm}"
+						],
+						[
+							"5th",
+							"{@spell blindness/deafness}, {@spell gentle repose}"
+						],
+						[
+							"9th",
+							"{@spell animate dead}, {@spell feign death}"
+						],
+						[
+							"13th",
+							"{@spell blight}, {@spell hemorrhage}"
+						],
+						[
+							"17th",
+							"{@spell contagion}, {@spell grave soil}"
+						]
+					]
+				}
+			],
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Reanimated Prosthetic",
+			"entries": [
+				"When you reach 3rd level, you replace one of your arms with a magically engineered prosthetic arm made out of bone and other materials, powered by a combination of artifice and necromancy. This bone arm can be used in all the same ways as your original arm, and you can use it as a spellcasting focus for your artificer spells.",
+				"In addition, when you gain the arm, you choose either claws or rays, which grant you a special weapon based on your choice. When you attack with that weapon, you can add your Intelligence modifier, instead of Strength or Dexterity, to the attack and damage rolls.",
+				"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Claws.",
+							"entries": [
+								"Your bone arm is crafted with wickedly curved bone talons. The arm counts as a magical simple melee weapon while you aren't holding anything in it, and it deals 1d10 slashing damage on a hit. Before the attack roll, you can choose to have the attack deal no damage and grapple the target on a hit. Until the grapple ends, you can't attack any other target with your bone arm."
+							]
+						}
+					],
+				"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Rays.",
+							"entries": [
+								"Your bone arm is outfitted with magical bones that allow it to fire rays of necrotic energy. It counts as a magical simple ranged weapon while you aren't holding anything in it, with a normal range of 90 feet and a long range of 300 feet. It deals 1d8 necrotic damage on a hit.",
+							]
+						}
+					],
+				"You can change the decision you made for this feature whenever you gain an artificer level."
+			],
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Undead Minion",
+			"entries": [
+				"Also at 3rd level, your experiments with animating the dead have borne you an undead minion stronger than most skeletons or zombies. It's friendly to you and your companions, and it obeys your commands. See it's game statistics in the Undead Minion stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on it's game statistics.",
+				"In combat, the minion shares your initiative count and regains its reaction at the start of your turn instead of its own, but the only action is takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. If you are incapacitated, the minion can take any action of its choice, not just Dodge.",
+				"It can speak, but only to speak the command words of magic items. It can hold items and carry equipment, and it is proficient with all of the same weapons as you are.",
+				"If the {@spell mending} spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your cobbler's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The undead minion is reanimated after 1 minute with all it's hit points restored.",
+				"At the end of a long rest, you can create a new undead minion if you have cobbler's tools with you. If you already have a minion from this feature, the first one immediately perishes. The minion also perishes if you die."
+			],
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Extra Attack",
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 5,
+			"header": 2,
+			"entries": [
+				"Starting at 5th level, you can attack twice, rather than once, whenever you take the Attack action on your turn. Moreover, in place of one of those attacks, you can cause your undead minion to use it's reaction to make an attack against a target you can see, so long as your minion can see or hear you."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Fortified Bones",
+			"entries": [
+				"At 9th level, you learn how to make or procure superior, fortified materials for crafting undead, which allow you to patch up your creations or even yourself after a great injury. As a bonus action on your turn or as part of the bonus action you use to command your undead minion, you can expend a spell slot of 1st-level or higher to restore hit points to either yourself, your undead minion, or one undead creature under your control within 30 feet of you or your minion. The number of hit points restored is equal to 1d8 + your Intelligence modifier + half of your proficiency bonus, plus additional hit points equal to 1d8 per spell slot level (minimum of 1 hit point restored.)",
+				"In addition, when you cast {@spell animate dead}, the undead that you create are fortified by the materials used in their creation. Each skeleton or zombie is created with resistance to pludgeoning, slashing, and piecing damage dealt from nonmagical attacks, as well as reistance to your choice of either cold, fire, or lightning damage.",
+				"Finally, when you create an undead using a necromancy spell, it has the additional benefits:",
+				" - The creature's hit point maximum is increased by an amount equal to your artificer level.",
+				" - The creature gains a +2 bonus to its AC"
+			],
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 9,
+			"header": 1
+		},
+		{
+			"name": "Ghoulish Strike",
+			"source": "ArtificerBoneCobbler",
+			"page": 82,
+			"className": "Artificer",
+			"classSource": "TCE",
+			"subclassShortName": "Purification",
+			"subclassSource": "ArtificerBoneCobbler",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"When you reach 15th level, you learn how to channel negative energy through your undead minion as well as your bone prosthetic.",
+				"When your undead minion hits a creature with a melee attack or you hit a creature with an attack using the bone arm granted by your Reanimated Prosthetic feature, you can infuse the attack with crippling negative energy. The attack deals 5d8 bonus necrotic damage, and the target must make a Constitution saving throw against your Artificer spell save DC. On a failed saving throw, the target becomes paralyzed until the end of your next turn. Undead and constructs automatically succeed on the saving throw.",
+				"Once you use this feature, you can't use it again until you finish a short or long rest."
+			]
+		}
+	]
+}
