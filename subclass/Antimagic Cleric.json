@@ -1,0 +1,223 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "antimagiccleric",
+				"abbreviation": "AMCL",
+				"full": "Anti-Magic Domain",
+				"authors": [
+					"DnD Unleashed"
+				],
+				"convertedBy": [
+					"jussin"
+				],
+				"version": "19.02.19",
+				"url": "https://mfov.magehandpress.com/2019/02/abyssal-domain.html",
+				"targetSchema": "1.0.1"
+			}
+		],
+		"dateAdded": 1589918247,
+		"dateLastModified": 1589918247
+	},
+	"subclass": [
+		{
+			"name": "Antimagic Domain",
+			"shortName": "AntiMagic",
+			"source": "antimagiccleric",
+			"subclassSpells": [
+				{
+					"name": "detect magic",
+					"source": "PHB"
+				},
+				{
+					"name": "protection from evil and good",
+					"source": "PHB"
+				},
+				{
+					"name": "counterspell",
+					"source": "PHB"
+				},
+				{
+					"name": "magic circle",
+					"source": "PHB"
+				},
+				{
+					"name": "aura of purity",
+					"source": "PHB"
+				},
+				{
+					"name": "banishment",
+					"source": "PHB"
+				},
+				{
+					"name": "circle of power",
+					"source": "PHB"
+				},
+				{
+					"name": "dispel evil and good",
+					"source": "PHB"
+				}
+			],
+			"subclassFeatures": [
+				"AntiMagic Domain|Cleric||AntiMagic|antimagiccleric|1",
+				"Channel Divinity: Inspire Resistance|Cleric||AntiMagic|antimagiccleric|2",
+				"Veto Magic|Cleric||AntiMagic|antimagiccleric|6",
+				"Divine Strike|Cleric||AntiMagic|antimagiccleric|8",
+				"The Unweave|Cleric||AntiMagic|antimagiccleric|17"
+			],
+			"className": "Cleric",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "AntiMagic Domain",
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 1,
+			"entries": [
+				"Though magic is common across the many worlds of Dungeons and Dragons, there are gods and goddesses that despise magic, even though it sustains them. Most deities of this domain - like Mythrein Sarath, Odin, Heka, or Solinari - are not against magic generally, but are noble gods of abjuration, wards, and other defenses against magic, or are against a specific type of magic, such as arcane magic. Others, such as Shar ot the Shadow, create a dark or corrupted form of magic itself to replace what they view as inferior or unworthy. Some seek to banish or devour all other magic. A few rare gods of this domain are champions of technology and only oppose the use of magic by mortals. There might even be psionic deties lurking in the Far Realm who spurn all magic that isn't psoionic in origin.",
+				"Many clerics of this domain hunt for those they see as witches, heretics, and occultists, preventing their foul magicks from completing and preaching to others the true dangers of unrestricted magic. Others twist magic for their own dark purposes and seek to drive away any good-hearted fey or celestials. Most antimagic clerics try to rely on their nonmagical abilities to accomplish their goals instead of their divine power, and they encourage their allies to do the same, channeling their own magic only to even the odds against magic and powerful foes.",
+				{
+					"type": "table",
+					"caption": "AntiMagic Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell detect magic}, {@spell protection from evil and good}"
+						],
+						[
+							"3rd",
+							"{@spell lesser restoration}, {@spell see invisibilty}"
+						],
+						[
+							"5th",
+							"{@spell counterspell}, {@spell magic circle}"
+						],
+						[
+							"7th",
+							"{@spell aura of purity}, {@spell banishment}"
+						],
+						[
+							"9th",
+							"{@spell circle of power}, {@spell dispel evil and good}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiency|Cleric||AntiMagic|antimagiccleric|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Ward Against Wickedness|Cleric||AntiMagic|antimagiccleric|1"
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Proficiency",
+			"entries": [
+				"When you choose this domain at 1st level, you gain proficiency with martial weapons and heavy armor."
+			],
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Ward Against Wickedness",
+			"entries": [
+				"Also at 1st level, when you or a willing creature within 30 feet of you fails a saving throw, you can use your reaction to roll 1d6 and add the result to the total for the saving throw, potentially causing it to succeed.",
+				"You can use this feature a number of times equal to your Wisdom modifier (minimum of once.) You regain all expended uses when you finish a long rest.",
+				"Also, you are warded against foul magic. You always have advantage on saving throws against curses, possession, and magic that reads your mind or changes your memories against your will."
+			],
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Inspire Resistance",
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"Starting at 2nd level, you can use your Channel Divinity to rally your allies against the forces of magic, inspiring them to believe in their own nonmagical abilities.",
+				"As a bonus action, you can call out to up to five creatures that you can see within 30 feet. Each target that can see or hear you gains temporary hit points equal to your cleric level that last for 1 minute. If a target is within 30 feet of a hostile abberration, celestial, elemental, fey, fiend, or undead, it gains additional temporary hit points equal to your proficiency bonus.",
+				"While a creature has these temporary hit points, its weapon attack also count as magical for the purposes of overcoming resistances and immunities."
+			]
+		},
+		{
+			"name": "Veto Magic",
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"At 6th level, you learn how to protect from all forms of magic. You can cast {@spell protection from evil and good}, {@spell counterspell}, and {@dispel magic} without expending a spell slot and only requiring verbal components, even if you don't have the spells prepared.",
+				"If you cast {@spell counterspell} or {@spell dispel magic} using this feature, you use half your cleric level instead of your spellcasting ability modifier for the spell's ability check. If you cast {@spell protection from evil and good} using this feature, the spell doesn't require concentration, but it only lasts for 1 minute.",
+				"Once you have cast a spell using this freature, you cannot do so again until you finish a long rest."
+			]
+		},
+		{
+			"name": "Divine Strike",
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack do deal an extra 1d8 of damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+			]
+		},
+		{
+			"name": "The Unweave",
+			"source": "antimagiccleric",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "AntiMagic",
+			"subclassSource": "antimagiccleric",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level,  you gain the power to bend the rules of magic around you. As an action, you alter reality in a 60-foot radius around you. The area is filled with dim light and follows you as you move, remaining centered on you. Choose up to three schools of magic, such as abjuration or conjuration. Spells of the chosen schools cannot be cast within the area. In addition, each creature of your choice has advantage on savign throws against any spells and magical effects while it remains within the area.",
+				"The area persists for 1 minute or until you lose consciousness, but you can use an action or bonus action on your turn to end the effect early. Once you use this feature, you can't use it again until you finish a long rest."
+			]
+		}
+	]
+}
